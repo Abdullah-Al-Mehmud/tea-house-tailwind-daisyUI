@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <title>tea shop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- main css file start -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Main css file close -->
+
+    <!--  font awesome link start -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- font awesome lik close -->
+
+    <!-- Google fonts start -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@500;800&display=swap"
+      rel="stylesheet" />
+
+    <!-- google fonts close -->
+
+    <!-- tailwind css link start -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind css link close -->
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+      .featured-bg-color {
+        background: linear-gradient(
+          180deg,
+          #f4f4f4 0%,
+          rgba(244, 244, 244, 0) 100%
+        );
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "btn-bg": "linear-gradient(270deg, #F00 0%, #FF8938 100%)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <section>
+        <div class="hero">
+          <div class="hero-content lg:flex-row flex-col-reverse">
+            <div class="mt-20">
+              <h1 class="text-5xl font-bold">
+                It's good <br />
+                tea time at The <br />
+                Tea House
+              </h1>
+              <p class="py-6">
+                Tea and Botanical Solutions Supplier Give Optimum <br />
+                Satisfaction To Your Taste Buds.
+              </p>
+              <button class="btn">Explore More</button>
+            </div>
+            <div class="mt-24 ml-24">
+              <img src="images/banner.png" class="md:max-w-md" />
+
+              <div
+                class="-mt-20 flex items-center gap-5 rounded-lg drop-shadow-lg bg-white px-5 py-3 w-60">
+                <i class="fa-solid fa-star text-yellow-300 text-3xl"></i>
+                <div class="mt-5">
+                  <h3 class="text-3xl font-bold text-black">5.00</h3>
+                  <p class="text-gray-500">Trust Pilot Ratings</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header section ends -->
+
+    <!-- main section starts -->
+    <main>
+      <!-- featured section -->
+      <section class="featured-container">
+        <div class="text-center py-24 px-10">
+          <h3 class="text-4xl text-black font-semibold">
+            Our Featured Products
+          </h3>
+          <p class="text-sm text-gray-500 mt-4">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, <br />
+            by injected humour, or randomised words which don't look even
+            slightly believable.
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 px-20 lg:px-32 gap-5">
+          <!-- card 1 -->
+          <div class="card w-auto featured-bg-color">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl">Milk Tea</h2>
+              <p class="text-sm text-gray-500 mt-4">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card w-auto featured-bg-color">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl">Milk Tea</h2>
+              <p class="text-sm text-gray-500 mt-4">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card w-auto featured-bg-color">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl">Milk Tea</h2>
+              <p class="text-sm text-gray-500 mt-4">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card w-auto featured-bg-color">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-3xl">Milk Tea</h2>
+              <p class="text-sm text-gray-500 mt-4">
+                Creamer could be replaced <br />
+                by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main section ends -->
+
+    <!-- footer section starts -->
+    <footer></footer>
+    <!-- footer section ends -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
